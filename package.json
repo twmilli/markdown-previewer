@@ -1,0 +1,36 @@
+{
+  "name": "markdown-previewer",
+  "version": "1.0.0",
+  "description": "Markdown Previewer as part of FCC data visualization",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twmilli/markdown-previewer.git"
+  },
+  "author": "Taylor Milliman",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.12.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "html-webpack-plugin": "^2.21.0",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^3.2.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "bugs": {
+    "url": "https://github.com/twmilli/markdown-previewer/issues"
+  },
+  "homepage": "https://github.com/twmilli/markdown-previewer#readme"
+}
