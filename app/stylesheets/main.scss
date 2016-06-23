@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:500);
+
+$text-font: 'Josefin Slab', serif;
+$title-font: 'Ubuntu', sans-serif;
+
+.my-previewer{
+
+  padding: 2rem;
+  font-family: $text-font;
+  vertical-align: middle;
+
+  .title{
+    font-family: $title-font;
+    text-align: center;
+    font-size: 4em;
+
+  }
+  .text-field{
+    display: inline-block;
+    font-size: 1em;
+    border: 2px solid black;
+    resize: none;
+    border-radius: 0.25em;
+    box-shadow: 0 8px 15px 0 rgba(0,0,0, 0.3);
+  }
+
+  .display{
+    float: right;
+    display: inline-block;
+    width: 40%;
+    margin-right: 2rem;
+  }
+}
